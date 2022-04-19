@@ -12,6 +12,10 @@ article, header, section, aside, details, figcaption, figure, footer, header, hg
 }
 body {
     background:#ffffff none repeat scroll 0 0;
+    background-image: url('https://img.freepik.com/free-vector/hand-painted-watercolor-purple-yellow-sky-background_156268-369.jpg?w=1380');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
     color: #222;
     font-size: 100%;
     line-height: 24px;

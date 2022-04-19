@@ -192,3 +192,40 @@
 		 white-space: initial;
 	}
 }
+
+#welcome {
+	filter: invert(100%);
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	width: 20%;
+  }
+
+  #abt-us {
+	filter: invert(90%);
+	display: block;
+	padding-top: 2em;
+	padding-left: 3em;
+	padding-right: 3em;
+  	width: 90%;
+  }
+
+  #robot {
+	filter: invert(0%);
+	display: block;
+	margin-left: auto;
+  	margin-right: auto;
+  	width: 80%;
+  }
+
+  .column {
+	float: left;
+  }
+  
+  .left {
+	width: 60%;
+  }
+  
+  .right {
+	width: 40%;
+  }
