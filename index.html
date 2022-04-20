@@ -87,12 +87,30 @@
           <div class="row">
 
             <div class="column left">
-              <p style="text-align: justify; padding-right: 5em;">Jamal Gulung was establish in 2022 for Web Technology Project Assignment inspired by one of the famous tiktokers which is Jamal Gulung. For the first assignment, we've been asked to create our own website. Our objective is to learn and master this course. Please keep in touch with us to keep up with our group progress.</p>
-              <img src="https://www.just.edu.jo/Units_and_offices/Offices/IRO/PublishingImages/Pages/contactus/about_us.gif" id="abt-us">
+              <p>Jamal Gulung was establish in 2022 for Web Technology Project Assignment inspired by one of the famous tiktokers 
+                which is Jamal Gulung. For the first assignment, we've been asked to create our own website. Our objective is to 
+                learn and master this course. Please keep in touch with us to keep up with our group progress.<br></p>
+              <span id="dots">...</span><span id="more">
+                <p>
+                  At the end of the course we are hoping to able to:<br><br>
+                <i>
+                1. Understand the concept, features, technology and existing applications in WEB 2.0 and WEB 3.0 in depth. <br>
+                2. Understand the concept, technologies and API for frontend and backend web applications development.<br>
+                3. Design, apply and develop both the frontend and backend web application project based on the given case study.<br>
+                4. Develop both the frontend and backend web application, by work effectively in a team.
+                </i>
+              </p>
+              </span>
+            
+              <ul class="actions">
+                <li><button onclick="myFunction()" id="myBtn">Read more</button></li>
+              </ul>
+              
+              <!-- <img src="https://www.just.edu.jo/Units_and_offices/Offices/IRO/PublishingImages/Pages/contactus/about_us.gif" id="abt-us"> -->
             </div>
 
             <div class="column right">
-              <img src="https://media.giphy.com/media/1ZDDyAaAA82ywDiyKs/giphy.gif" id="robot">
+              <img src="images/aboutus.gif" id="robot">
             </div>
           </div>
         </section>
@@ -115,5 +133,23 @@
     </div>
 </section>
 
+  <script>
+    function myFunction() {
+      var dots = document.getElementById("dots");
+      var moreText = document.getElementById("more");
+      var btnText = document.getElementById("myBtn");
+    
+      if (dots.style.display === "none") {
+      dots.style.display = "inline";
+      btnText.innerHTML = "Read more"; 
+      moreText.style.display = "none";
+      } else {
+      dots.style.display = "none";
+      btnText.innerHTML = "Read less"; 
+      moreText.style.display = "inline";
+      }
+  }
+  </script>
 	</body>
 </html>
+

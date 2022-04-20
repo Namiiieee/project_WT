@@ -53,6 +53,11 @@ h2 span {
 	text-transform:uppercase;
 }
 
+section p {
+  text-align: justify; 
+  padding-right: 5em;
+}
+
 #float-right{
 	float:right;	
 }
