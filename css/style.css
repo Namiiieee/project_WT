@@ -258,6 +258,21 @@
     width: 40%;
 }
 
+.Pr1 {
+    width: 33.33%;
+    text-align: center;
+}
+
+.Pr2 {
+    width: 33.33%;
+    text-align: center;
+}
+
+.Pr3 {
+    width: 33.33%;
+    text-align: center;
+}
+
 
 /* Button */
 
@@ -354,4 +369,16 @@ button:hover {
     padding: 0;
     letter-spacing: 2px;
     color: #E1AD01;
+}
+
+.our_project{
+    color: black;
+}
+
+.ytlink{
+    color: #E1AD01; 
+}
+
+.ytlink:hover{
+    color: pink;
 }
